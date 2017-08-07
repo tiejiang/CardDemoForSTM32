@@ -1,0 +1,13 @@
+..\OBJ\delay.o: ..\MyLib\Delay.c
+..\OBJ\delay.o: ..\CMSIS\stm32f10x.h
+..\OBJ\delay.o: ..\CMSIS\core_cm3.h
+..\OBJ\delay.o: D:\MDK\ARM\RV31\INC\stdint.h
+..\OBJ\delay.o: ..\CMSIS\system_stm32f10x.h
+..\OBJ\delay.o: ..\USER\stm32f10x_conf.h
+..\OBJ\delay.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+..\OBJ\delay.o: ..\CMSIS\stm32f10x.h
+..\OBJ\delay.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+..\OBJ\delay.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+..\OBJ\delay.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+..\OBJ\delay.o: ..\STM32F10x_StdPeriph_Driver\inc\misc.h
+..\OBJ\delay.o: ..\MyLib\Delay.h

@@ -1,0 +1,13 @@
+..\OBJ\moto.o: ..\MyLib\Moto.c
+..\OBJ\moto.o: ..\MyLib\moto.h
+..\OBJ\moto.o: ..\CMSIS\stm32f10x.h
+..\OBJ\moto.o: ..\CMSIS\core_cm3.h
+..\OBJ\moto.o: D:\MDK\ARM\RV31\INC\stdint.h
+..\OBJ\moto.o: ..\CMSIS\system_stm32f10x.h
+..\OBJ\moto.o: ..\USER\stm32f10x_conf.h
+..\OBJ\moto.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+..\OBJ\moto.o: ..\CMSIS\stm32f10x.h
+..\OBJ\moto.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+..\OBJ\moto.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+..\OBJ\moto.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+..\OBJ\moto.o: ..\STM32F10x_StdPeriph_Driver\inc\misc.h

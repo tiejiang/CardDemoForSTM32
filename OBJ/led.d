@@ -1,0 +1,13 @@
+..\OBJ\led.o: ..\MyLib\LED.c
+..\OBJ\led.o: ..\MyLib\LED.h
+..\OBJ\led.o: ..\CMSIS\stm32f10x.h
+..\OBJ\led.o: ..\CMSIS\core_cm3.h
+..\OBJ\led.o: D:\MDK\ARM\RV31\INC\stdint.h
+..\OBJ\led.o: ..\CMSIS\system_stm32f10x.h
+..\OBJ\led.o: ..\USER\stm32f10x_conf.h
+..\OBJ\led.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+..\OBJ\led.o: ..\CMSIS\stm32f10x.h
+..\OBJ\led.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+..\OBJ\led.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+..\OBJ\led.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+..\OBJ\led.o: ..\STM32F10x_StdPeriph_Driver\inc\misc.h

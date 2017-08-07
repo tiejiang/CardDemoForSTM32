@@ -1,0 +1,13 @@
+..\OBJ\misc.o: ..\STM32F10x_StdPeriph_Driver\src\misc.c
+..\OBJ\misc.o: ..\STM32F10x_StdPeriph_Driver\inc\misc.h
+..\OBJ\misc.o: ..\CMSIS\stm32f10x.h
+..\OBJ\misc.o: ..\CMSIS\core_cm3.h
+..\OBJ\misc.o: D:\MDK\ARM\RV31\INC\stdint.h
+..\OBJ\misc.o: ..\CMSIS\system_stm32f10x.h
+..\OBJ\misc.o: ..\USER\stm32f10x_conf.h
+..\OBJ\misc.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+..\OBJ\misc.o: ..\CMSIS\stm32f10x.h
+..\OBJ\misc.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+..\OBJ\misc.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+..\OBJ\misc.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+..\OBJ\misc.o: ..\STM32F10x_StdPeriph_Driver\inc\misc.h

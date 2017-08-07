@@ -1,0 +1,41 @@
+
+T0CCC 000:613 SEGGER J-Link V4.40 Log File (0001ms, 0458ms total)
+T0CCC 000:613 DLL Compiled: Dec  9 2011 18:59:34 (0001ms, 0458ms total)
+T0CCC 000:613 Logging started @ 2013-10-13 11:24 (0001ms, 0458ms total)
+T0CCC 000:614 JLINK_SetWarnOutHandler(...) (0000ms, 0459ms total)
+T0CCC 000:614 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N: 17935099
+Feature(s): RDI,FlashDL,FlashBP,JFlash  returns O.K. (0187ms, 0459ms total)
+T0CCC 000:801 JLINK_SetErrorOutHandler(...) (0000ms, 0646ms total)
+T0CCC 000:801 JLINK_ExecCommand("ProjectFile = "F:\Practice Makes Perfect\MCU\STM32\ÔÓ\3.5¹¤³ÌÄ£°å\USER\JLinkSettings.ini"", ...)  returns 0x00 (0001ms, 0646ms total)
+T0CCC 000:803 JLINK_ExecCommand("Device = STM32F103RB", ...)
+                JLINK_ExecCommand("map ram 0x20000000 - 0x20004FFF", ...)  returns 0x00 (0000ms, 0002ms total)
+                JLINK_AddMirrorAreaEx(Addr = 0x00000000, Size = 0x00000000) (0000ms, 0002ms total)
+              Device "STM32F103RB" selected (128 KB flash, 20 KB RAM).  returns 0x00 (0003ms, 0647ms total)
+T0CCC 000:808 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x00 (0000ms, 0650ms total)
+T0CCC 000:809 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0650ms total)
+T0CCC 000:809 JLINK_GetDLLVersion()  returns 44000 (0000ms, 0650ms total)
+T0CCC 000:809 JLINK_GetFirmwareString(...) (0000ms, 0650ms total)
+T0CCC 000:809 JLINK_GetDLLVersion()  returns 44000 (0000ms, 0650ms total)
+T0CCC 000:809 JLINK_GetCompileDateTime() (0000ms, 0650ms total)
+T0CCC 000:809 JLINK_GetFirmwareString(...) (0000ms, 0650ms total)
+T0CCC 000:809 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0650ms total)
+T0CCC 000:809 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0000ms, 0650ms total)
+T0CCC 000:809 JLINK_Close() (0042ms, 0650ms total)
+T0CCC 000:851 JLINK_Close() (0000ms, 0692ms total)
+
+  ***** API Error: API JLINK_GetIdData function called before JLINKARM_Open()
+T0CCC 000:851 
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N: 17935099
+Feature(s): RDI,FlashDL,FlashBP,JFlashJLINK_GetIdData(...)
+  ***** Error: Supply voltage too low (1 Volt is required, Measured: 0.0 Volt).
+Please check target power. (0172ms, 0692ms total)
+T0CCC 002:394 JLINK_GetIdData(...) (0001ms, 0864ms total)
+T0CCC 002:403 JLINK_GetFirmwareString(...) (0000ms, 0865ms total)
+T0CCC 018:824 JLINK_Close() (0042ms, 0865ms total)
+T0CCC 018:866 JLINK_Close() (0000ms, 0907ms total)
+T0CCC 018:866 JLINK_Close() (0000ms, 0907ms total)
